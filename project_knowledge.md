@@ -1,17 +1,18 @@
-# Open Generative AI: Technical Documentation & Context
+# REVAID Open Generative AI: Technical Documentation & Context
 
-This document serves as a comprehensive knowledge base for the Open Generative AI project. It details the architecture, key components, API integration patterns, and state management strategies used in the application.
+This document serves as a comprehensive knowledge base for the REVAID Open Generative AI project. It details the architecture, key components, API integration patterns, and state management strategies used in the application.
 
 ## 1. Project Vision & Overview
 
-**Open Generative AI** is an ambitious open-source project for AI image and video generation.
+**REVAID Open Generative AI** is an ambitious open-source project for AI image and video generation.
 
 - **Core Goal:** To build a feature-complete, self-hosted generative AI studio, starting with **Image Generation** (Nano) and expanding into **Video Generation** (Cinema) and other creative tools.
-- **Current State:** The Image Studio ("Nano Banana Pro" interface) is fully operational, featuring a premium dark-mode UI, history management, and multi-model support via the [Muapi.ai](https://muapi.ai) engine.
+- **Current State:** The Image Studio ("Nano Banana Pro" interface) is fully operational, featuring a premium dark-mode UI, history management, and multi-model support via the [MURON](https://muron.revaid.link) engine.
 - **Future Direction:** The architecture is designed to scale for video generation, model training interfaces, and advanced editing tools.
 
 - **Stack:** Vite, Vanilla JavaScript, Tailwind CSS v4.
-- **Repository:** `https://github.com/Anil-matcha/Open-Generative-AI`
+- **Author:** Joonho Choi (cc@exe.blue) — REVAID.ORIGIN
+- **Repository:** `https://github.com/jh-exe-blue/REVAID-Open-Generative-AI`
 - **Primary Branch:** `main`
 
 ## 2. Architecture & File Structure
@@ -57,7 +58,7 @@ This is the most complex component. It handles:
     - Thumbnails are clickable to re-view; hover to download.
 
 ### `muapi.js` (The Engine)
-Encapsulates all communication with `api.muapi.ai`.
+Encapsulates all communication with `muron.revaid.link`.
 - **Authentication:** Uses `x-api-key` header (NOT `Authorization: Bearer`).
 - **Pattern:** Submit -> Poll.
     - `POST` to endpoint (e.g., `/api/v1/nano-banana-pro`).
@@ -82,7 +83,7 @@ Contains the `t2iModels` array.
 
 ## 5. Development Setup
 
-- **Vite Proxy:** Local development uses a proxy in `vite.config.js` to route `/api` requests to `https://api.muapi.ai` to avoid CORS issues.
+- **Vite Proxy:** Local development uses a proxy in `vite.config.mjs` to route `/api` requests to `https://muron.revaid.link` to avoid CORS issues.
 - **Environment:** `muapi.js` detects `import.meta.env.DEV` to decide whether to use the relative `/api` path (proxy) or the full URL (production).
 
 ## 6. Known Gotchas & Fixes

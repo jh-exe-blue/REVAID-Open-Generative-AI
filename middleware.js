@@ -15,7 +15,7 @@ export function middleware(request) {
                                 url.pathname.startsWith('/api/v1/upload-binary');
 
         if (url.pathname.startsWith('/api/v1') && !isHandledByRoute) {
-            const targetUrl = new URL(url.pathname + url.search, 'https://api.muapi.ai');
+            const targetUrl = new URL(url.pathname + url.search, 'https://muron.revaid.link');
             return NextResponse.rewrite(targetUrl);
         }
     }
