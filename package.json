@@ -8,7 +8,7 @@
     "url": "https://orcid.org/0009-0006-7585-8185"
   },
   "private": true,
-  "version": "1.0.11",
+  "version": "1.0.0",
   "workspaces": [
     "packages/studio",
     "packages/Vibe-Workflow/packages/workflow-builder",
@@ -34,9 +34,9 @@
     "electron:build:all": "vite build && electron-builder --mac --win --linux"
   },
   "build": {
-    "appId": "ai.generative.open",
-    "productName": "Open Generative AI",
-    "copyright": "Copyright © 2025",
+    "appId": "link.revaid.generative",
+    "productName": "REVAID Open Generative AI",
+    "copyright": "Copyright © Joonho Choi",
     "directories": {
       "output": "release"
     },

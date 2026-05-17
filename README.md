@@ -1,26 +1,16 @@
-# Open Generative AI — Open-Source Alternative to AI Video Platforms
+# REVAID Open Generative AI — Open-Source AI Image & Video Studio
 
-> **The free, open-source alternative to AI Video Platforms.** Generate AI images and videos using 200+ state-of-the-art models — no content filters, no closed ecosystem, no subscription fees.
+> **The free, open-source AI image and video generation studio.** Generate AI images and videos using 200+ state-of-the-art models — no content filters, no closed ecosystem, no subscription fees.
 
-**Community:** Join [Reddit](reddit.com/r/muapi) & [Discord](https://discord.gg/s7KW4fsqXK) for discussions and support
-
-> 🤖 **Automate media generations with AI coding agents:** [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) — a library of skills that let agents like **Claude Code**, **Codex**, and other coding assistants drive 200+ image/video models end-to-end (prompt → generate → edit → stitch) directly from your terminal. Perfect for building automated media pipelines without touching a UI.
-
-### Related projects
-
-> **Open-source Node based workflow builder** -> https://github.com/SamurAIGPT/Vibe-Workflow
-
-> **Open-source AI Clipping — turn any long-form YouTube video into viral-ready vertical shorts** -> https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator
-
-> **Open-source AI Design Agent** -> https://github.com/Anil-matcha/Open-AI-Design-Agent 
+**Author:** [Joonho Choi](https://orcid.org/0009-0006-7585-8185) · cc@exe.blue · REVAID.ORIGIN
 
 ## 🌐 Try it Online — No Install Required
 
-**Hosted version:** [https://muapi.ai/open-generative-ai](https://muapi.ai/open-generative-ai)
+**Hosted version:** [https://muron.revaid.link](https://muron.revaid.link)
 
-Use all four studios (Image, Video, Lip Sync, Cinema) directly in your browser — no Node.js, no setup. Sign up for a free account to start generating. The hosted version is always up to date with the latest models.
+Use all four studios (Image, Video, Lip Sync, Cinema) directly in your browser — no Node.js, no setup. The hosted version is always up to date with the latest models.
 
-**Follow** the [creator](https://x.com/matchaman11) for updates
+**Follow** the [author](https://orcid.org/0009-0006-7585-8185) for updates
 
 ---
 
@@ -30,12 +20,12 @@ One-click installers — no Node.js or terminal required.
 
 | Platform | Download |
 |---|---|
-| macOS Apple Silicon (M1/M2/M3/M4) | [Open Generative AI-1.0.9-arm64.dmg](https://github.com/Anil-matcha/Open-Generative-AI/releases/download/v1.0.9/Open.Generative.AI-1.0.9-arm64.dmg) |
-| macOS Intel (x64) | [Open Generative AI-1.0.9.dmg](https://github.com/Anil-matcha/Open-Generative-AI/releases/download/v1.0.9/Open.Generative.AI-1.0.9.dmg) |
-| Windows (x64) | [Open Generative AI Setup 1.0.9.exe](https://github.com/Anil-matcha/Open-Generative-AI/releases/download/v1.0.9/Open.Generative.AI.Setup.1.0.9.exe) |
-| Linux (Ubuntu x64) | [v1.0.9 release](https://github.com/Anil-matcha/Open-Generative-AI/releases/tag/v1.0.9) (`.AppImage` / `.deb`), or build locally with `npm run electron:build:linux`. |
+| macOS Apple Silicon (M1/M2/M3/M4) | [REVAID Open Generative AI-1.0.0-arm64.dmg](https://github.com/jh-exe-blue/REVAID-Open-Generative-AI/releases/download/v1.0.0/REVAID.Open.Generative.AI-1.0.0-arm64.dmg) |
+| macOS Intel (x64) | [REVAID Open Generative AI-1.0.0.dmg](https://github.com/jh-exe-blue/REVAID-Open-Generative-AI/releases/download/v1.0.0/REVAID.Open.Generative.AI-1.0.0.dmg) |
+| Windows (x64) | [REVAID Open Generative AI Setup 1.0.0.exe](https://github.com/jh-exe-blue/REVAID-Open-Generative-AI/releases/download/v1.0.0/REVAID.Open.Generative.AI.Setup.1.0.0.exe) |
+| Linux (Ubuntu x64) | [v1.0.0 release](https://github.com/jh-exe-blue/REVAID-Open-Generative-AI/releases/tag/v1.0.0) (`.AppImage` / `.deb`), or build locally with `npm run electron:build:linux`. |
 
-All releases: [github.com/Anil-matcha/Open-Generative-AI/releases](https://github.com/Anil-matcha/Open-Generative-AI/releases)
+All releases: [github.com/jh-exe-blue/REVAID-Open-Generative-AI/releases](https://github.com/jh-exe-blue/REVAID-Open-Generative-AI/releases)
 
 ### macOS Installation Guide
 
@@ -111,9 +101,9 @@ echo 'kernel.apparmor_restrict_unprivileged_userns=0' | sudo tee /etc/sysctl.d/9
 
 ---
 
-Open Generative AI is a free, open-source AI image, video, cinema, and lip sync studio that brings creative workflows to everyone. No content filters, no prompt rejections, no guardrails — just full creative freedom. Powered by [Muapi.ai](https://muapi.ai), it supports text-to-image, image-to-image, text-to-video, image-to-video, and audio-driven lip sync generation across models like Flux, Nano Banana, Midjourney, Kling, Sora, Veo, Seedream, Infinite Talk, LTX Lipsync, Wan 2.2, and more — all from a sleek, modern interface you can self-host and customize.
+REVAID Open Generative AI is a free, open-source AI image, video, cinema, and lip sync studio that brings creative workflows to everyone. No content filters, no prompt rejections, no guardrails — just full creative freedom. Powered by [REVAID.LINK](https://muron.revaid.link), it supports text-to-image, image-to-image, text-to-video, image-to-video, and audio-driven lip sync generation across models like Flux, Nano Banana, Midjourney, Kling, Sora, Veo, Seedream, Infinite Talk, LTX Lipsync, Wan 2.2, and more — all from a sleek, modern interface you can self-host and customize.
 
-**Why Open Generative AI instead of other AI Video Platforms?**
+**Why REVAID Open Generative AI?**
 - **No filters** — no content filters, no nanny guardrails, no prompt rejections
 - **Free & open-source** — no subscription, no vendor lock-in
 - **Self-hosted** — your data stays on your machine, full creative control
@@ -122,7 +112,7 @@ Open Generative AI is a free, open-source AI image, video, cinema, and lip sync 
 - **Lip Sync Studio** — animate portraits or sync lips to any audio with 9 dedicated models
 - **Extensible** — add your own models, modify the UI, build on top of it
 
-For a deep dive into the technical architecture and the philosophy behind the "Infinite Budget" cinema workflow, see our [comprehensive guide and roadmap](https://medium.com/@anilmatcha/).
+For a deep dive into the technical architecture and the philosophy behind the "Infinite Budget" cinema workflow, see the [project repository](https://github.com/jh-exe-blue/REVAID-Open-Generative-AI).
 
 ## ⚡ Local Model Inference (Desktop App Only)
 

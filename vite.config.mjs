@@ -5,7 +5,7 @@ export default defineConfig({
     server: {
         proxy: {
             '/api': {
-                target: 'https://api.muapi.ai',
+                target: 'https://muron.revaid.link',
                 changeOrigin: true,
                 secure: false
             }
