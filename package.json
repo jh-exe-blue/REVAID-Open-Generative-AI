@@ -1,7 +1,12 @@
 {
-  "name": "open-generative-ai",
-  "description": "Open-source alternative to HF AI — AI image, video, cinema and lip sync studio",
-  "homepage": "https://github.com/Anil-matcha/Open-Generative-AI",
+  "name": "revaid-open-generative-ai",
+  "description": "REVAID Open Generative AI — AI image, video, cinema and lip sync studio",
+  "homepage": "https://orcid.org/0009-0006-7585-8185",
+  "author": {
+    "name": "Joonho Choi",
+    "email": "cc@exe.blue",
+    "url": "https://orcid.org/0009-0006-7585-8185"
+  },
   "private": true,
   "version": "1.0.11",
   "workspaces": [
@@ -73,7 +78,7 @@
     "linux": {
       "icon": "public/banner.png",
       "category": "Utility",
-      "maintainer": "Open Generative AI Team",
+      "maintainer": "Joonho Choi <cc@exe.blue>",
       "extraFiles": [
         {
           "from": "build/linux/apparmor.profile",
