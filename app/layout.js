@@ -11,7 +11,6 @@ export const metadata = {
   description: 'Generate AI images and videos using 200+ models — Flux, Midjourney, Kling, Veo, Seedance and more.',
   authors: [{ name: 'Joonho Choi', url: 'https://orcid.org/0009-0006-7585-8185' }],
   creator: 'Joonho Choi',
-  metadataBase: new URL('https://orcid.org/0009-0006-7585-8185'),
 };
 
 export default function RootLayout({ children }) {
